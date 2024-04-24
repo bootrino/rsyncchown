@@ -1,6 +1,6 @@
 This is a wrapper for rsync.
 
-This repo includes the golang source code and a binary compiled for MacOS Arm64 - use it at your own risk.
+This repo includes the golang source code and a binary compiled for MacOS Arm64 - use it at your own risk, or compile the source code yourself - it's not hard just go do it.
 
 The problem it solves, is when you rsync files to a target server, you want to run chown afterwards to set the user and group owners.
 

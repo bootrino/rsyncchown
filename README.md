@@ -22,6 +22,11 @@ No doubt there is better ways to do this but rsyncchown is written for my specif
 
 Here is how you would use it in Jetbrains IDEs:
 
+WARNING!!!!
+WARNING!!!!
+WARNING!!!!
+THIS RSYNC CONFIG GETS USED ACROSS ALL YOUR JETBRAINS PROJECTS!!!
+MAKE SURE YOU UNDERSTAND THIS!!!
 
 ![Screenshot 2024-04-24 at 10 59 41 am](https://github.com/bootrino/rsyncchown/assets/22624099/e61ab1fb-fc7c-464b-be0f-49bd9eb7478f)
 

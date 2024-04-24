@@ -23,5 +23,6 @@ rsyncchown is written for my specific requirements - don't trust it from any per
 Here is how you would use it in Jetbrains IDEs:
 
 
-![Screenshot 2024-04-24 at 10 45 17 am](https://github.com/bootrino/rsyncchown/assets/22624099/2a9fe352-490d-4228-9abe-922025d3049c)
+![Screenshot 2024-04-24 at 10 52 25 am](https://github.com/bootrino/rsyncchown/assets/22624099/e63a3d42-18f8-4a94-b4bc-f57eb83266b0)
+
 

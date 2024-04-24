@@ -1,5 +1,7 @@
 This is a wrapper for rsync.
 
+This repo includes the golan source code and a binary compiled for MacOS Arm64 - use it at your own risk.
+
 The problem it solves, is when you rsync files to a target server, you want to run chown afterwards to set the user and group owners.
 
 There seems to be options for setting ownership within rsync but macos has an ancient version of rsync and even current versions of rsync don't seem to work in any way that makes sense to me.

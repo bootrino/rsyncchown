@@ -23,6 +23,7 @@ No dount there is better ways to do this but rsyncchown is written for my specif
 Here is how you would use it in Jetbrains IDEs:
 
 
-![Screenshot 2024-04-24 at 10 52 25 am](https://github.com/bootrino/rsyncchown/assets/22624099/e63a3d42-18f8-4a94-b4bc-f57eb83266b0)
+![Screenshot 2024-04-24 at 10 59 41 am](https://github.com/bootrino/rsyncchown/assets/22624099/e61ab1fb-fc7c-464b-be0f-49bd9eb7478f)
+
 
 

@@ -18,7 +18,7 @@ The arguments are all passed intact to rsync EXCEPT for the --chown=root:appuser
 
 Instead, --chown=root:appusergroup:/opt/authserver is not put on the rsync command line and instead is used to run a recursive chown command on the target directory via ssh, AFTER the rsync command has run.
 
-No dount there is better ways to do this but rsyncchown is written for my specific requirements and gets the job done that I need - don't trust it from any perspective including security or its behaviour - use at your own risk.
+No doubt there is better ways to do this but rsyncchown is written for my specific requirements and gets the job done that I need - don't trust it from any perspective including security or its behaviour - use at your own risk.
 
 Here is how you would use it in Jetbrains IDEs:
 

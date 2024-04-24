@@ -4,7 +4,7 @@ The problem it solves, is when you rsync files to a target server, you want to r
 
 There seems to be options for setting ownership within rsync but macos has an ancient version of rsync and even current versions of rsync don't seem to work in any way that makes sense to me.
 
-Fuck knows why and I'[m not spending any more time trying to work it out - instead I wrote this wrapper.
+Fuck knows why rsync can't do this and fuck knows why Macos is not using a new version of rsync and I'm not spending any more time trying to work it out - instead I wrote this wrapper.
 
 This is a particular problem for Jetbrains IDEs which provide no way to run a command after doing a deploy/upload via rsync.
 

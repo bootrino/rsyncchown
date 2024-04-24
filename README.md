@@ -2,7 +2,11 @@ This is a wrapper for rsync.
 
 The problem it solves, is when you rsync files to a target server, you want to run chown afterwards to set the user and group owners.
 
-This is a particular problem for Jetbrains IDEs which provide no way to run a command after doing a deploy/upload.
+There seems to be options for setting ownership within rsync but macos has an ancient version of rsync and even current versions of rsync don't seem to work in any way that makes sense to me.
+
+Fuck knows why and I'[m not spending any more time trying to work it out - instead I wrote this wrapper.
+
+This is a particular problem for Jetbrains IDEs which provide no way to run a command after doing a deploy/upload via rsync.
 
 Here is an example of usage:
 
@@ -14,5 +18,8 @@ Instead, --chown=root:appusergroup:/opt/authserver is not put on the rsync comma
 
 rsyncchown is written for my specific requirements - don't trust it from any perspective including security or its behaviour - use at your own risk.
 
+Here is how you would use it in Jetbrains IDEs:
 
+
+![Screenshot 2024-04-24 at 10 45 17 am](https://github.com/bootrino/rsyncchown/assets/22624099/2a9fe352-490d-4228-9abe-922025d3049c)
 
